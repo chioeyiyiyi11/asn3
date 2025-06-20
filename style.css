@@ -1,0 +1,176 @@
+/* Blank .css file */
+body {
+  font-family: 'Gabarito', sans-serif;
+}
+
+.inner {
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.container {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 880px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.banner {
+  background: url(images/logo.jpg) center;
+  height: 800px;
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.flex img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card {
+  max-width: 30%;
+}
+
+.box {
+  display: flex;
+  margin: 100px 0;
+}
+
+.box .text {
+  width: 50%;
+  background: #D9D9D9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box img {
+  width: 50%;
+}
+
+@media (max-width: 700px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
+
+.introduction {
+  width: 100%;
+  height: 1160px;
+  display: flex;
+  margin-top: 200px;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background: #D9D9D9;
+  position: relative;
+}
+
+.left_inner {
+  width: 95%;
+  height: 500px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+}
+
+.left_title {
+  font-size: 36px;
+}
+
+.content {
+  width: 100%;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+}
+
+.right1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shop {
+  width: 100%;
+  height: auto;
+  margin-top: 300px;
+}
+
+.shop_title {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.card_inner {
+  width: 100%;
+  height: 506px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.card_item {
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card_img {
+  width: 100%;
+  height: 430px;
+}
+
+.card_text {
+  width: calc(100% - 40px);
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.txt {
+  font-size: 20px;
+  line-height: 76px;
+  font-weight: 600;
+}
+
+.left_inner {
+  top: 20%;
+}
